@@ -208,13 +208,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function searchBook() {
-  const searchInput = document.getElementById("searchBookTitle").value;
+  const searchInput = document
+    .getElementById("searchBookTitle")
+    .value.toLowerCase();
   const moveBook = document.querySelectorAll(".itemTitle");
 
   for (const move of moveBook) {
-    if (searchInput !== move.innerText) {
-      console.log(move.innerText);
-      move.parentElement.remove();
+    if (!move.innerText.toLowerCase().includes(searchInput)) {
+      move.parentElement.style.display = "none";
+    } else {
+      move.parentElement.style.display = "";
     }
   }
 }
