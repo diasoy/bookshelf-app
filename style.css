@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body,
-input,
-button {
-  font-family: "Open Sans", sans-serif;
-}
-
 input,
 button {
   font-size: 16px;
@@ -20,7 +14,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: cornflowerblue;
+  background-color: #292438;
   color: white;
 }
 
@@ -41,7 +35,7 @@ main {
 
 .input_section > h2 {
   text-align: center;
-  color: cornflowerblue;
+  color: #292438;
 }
 
 .input_section > form > .input {
@@ -49,7 +43,7 @@ main {
 }
 
 .input_section > form > button {
-  background-color: cornflowerblue;
+  background-color: #e2a728;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -71,7 +65,7 @@ main {
 }
 
 .input_section > form > .input > label {
-  color: cornflowerblue;
+  color: #292438;
   font-weight: bold;
 }
 
@@ -82,7 +76,7 @@ main {
 }
 
 .input_section > form > .input_inline > label {
-  color: cornflowerblue;
+  color: #292438;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -98,7 +92,7 @@ main {
 }
 
 .search_section > h2 {
-  color: cornflowerblue;
+  color: #292438;
 }
 
 .search_section > form {
@@ -120,7 +114,7 @@ main {
 }
 
 .search_section > form > button {
-  background-color: cornflowerblue;
+  background-color: #e2a728;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -135,7 +129,7 @@ main {
 }
 
 .book_shelf > h2 {
-  color: cornflowerblue;
+  color: #292438;
 }
 
 .book_shelf > .book_list {
