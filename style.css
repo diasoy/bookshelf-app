@@ -14,7 +14,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #292438;
+  background-color: #456990;
   color: white;
 }
 
@@ -35,7 +35,7 @@ main {
 
 .input_section > h2 {
   text-align: center;
-  color: #292438;
+  color: #456990;
 }
 
 .input_section > form > .input {
@@ -43,7 +43,7 @@ main {
 }
 
 .input_section > form > button {
-  background-color: #e2a728;
+  background-color: green;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -65,7 +65,7 @@ main {
 }
 
 .input_section > form > .input > label {
-  color: #292438;
+  color: #456990;
   font-weight: bold;
 }
 
@@ -76,7 +76,7 @@ main {
 }
 
 .input_section > form > .input_inline > label {
-  color: #292438;
+  color: #456990;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -92,7 +92,7 @@ main {
 }
 
 .search_section > h2 {
-  color: #292438;
+  color: #456990;
 }
 
 .search_section > form {
@@ -114,7 +114,7 @@ main {
 }
 
 .search_section > form > button {
-  background-color: #e2a728;
+  background-color: royalblue;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -129,7 +129,7 @@ main {
 }
 
 .book_shelf > h2 {
-  color: #292438;
+  color: #456990;
 }
 
 .book_shelf > .book_list {
